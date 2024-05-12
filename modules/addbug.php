@@ -1,6 +1,6 @@
 <?php
 if (strpos($message, "/addbug") === 0){
-if ($userId == '766109755'){
+if ($userId == '1142868987'){
 $bug = substr($message, 8);
 file_put_contents('bugdb.txt', $bug . PHP_EOL, FILE_APPEND);
 sendMessage($chatId, "<b>[ϟ] BIN: $bug%0A[ϟ] RESPONSE: $bug will be identified as a bug bin from now.</b>", $message_id);
