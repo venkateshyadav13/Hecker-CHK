@@ -6,7 +6,7 @@ if ((strpos($message, "") === 0)||(strpos($message, "!start") === 0)||(strpos($m
 }
 
 if (strpos($message, "/pre") === 0){
-if ($userId == '766109755'){
+if ($userId == '1142868987'){
 $uid = substr($message, 5);
 if(empty($uid)){
 sendMessage($chatId, "<b>HECKER CHK ⚡️ - Status - $sat%0A━━━━━━━━━━━━━%0AYou need to provide a userid.</b>", $message_id);
